@@ -17,7 +17,7 @@ const skillsData = [
 
 const Skills = () => {
     return (
-        <div className="w-full min-h-screen pt-20 p-6 flex flex-col items-center bg-gray-800" id="skills">
+        <div className="w-full min-h-screen pt-20 p-6 flex flex-wrap flex-col items-center bg-gray-800" id="skills">
             <h1 className="text-center text-4xl font-bold text-green-500">Skills</h1>
             <hr className="w-1/3 my-4 border-green-500" />
             <div className="flex flex-wrap justify-center items-center gap-6">
