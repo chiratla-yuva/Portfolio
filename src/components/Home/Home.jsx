@@ -20,13 +20,13 @@ const Home = () => {
     }, []);
 
     return (
-        <div className="w-full h-screen flex items-center justify-evenly text-white bg-gray-800" id="home">
+        <div className="w-full h-screen flex flex-wrap items-center justify-evenly text-white bg-gray-800" id="home">
             <div className="text-center md:text-left">
                 <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4">Hi <span className="text-yellow-400">{wish}</span></h2>
                 <h1 className="text-xl md:text-2xl lg:text-5xl">I am <span className="text-green-400 font-medium">Chiratla.</span><br/>Yuva Sai Manikanta</h1>
             </div>
             <div className="profile">
-                <img src={Logo} alt="Profile Pic" className="w-64 md:w-72 lg:w-80 rounded-full" />
+                <img src={Logo} alt="Profile Pic" className="w-48 md:w-56 lg:w-72 rounded-full" />
             </div>
         </div>
     );
