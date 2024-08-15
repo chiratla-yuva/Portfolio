@@ -22,7 +22,7 @@ const Skills = () => {
             <hr className="w-1/3 my-4 border-green-500" />
             <div className="flex flex-wrap justify-center items-center gap-4 lg:gap-6">
                 {skillsData.map((skill, index) => (
-                    <div key={index} className="w-28 lg:w-32 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/8 p-4 bg-gray-700 border-2 border-green-500 rounded-lg shadow-md flex flex-col items-center text-black">
+                    <div key={index} className="w-24 lg:w-32 sm:w-1/3 md:w-1/4 lg:w-1/5 xl:w-1/8 p-4 bg-gray-700 border-2 border-green-500 rounded-lg shadow-md flex flex-col items-center text-black">
                         <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center mb-4">
                             <img src={skill.src} alt={skill.name} className="max-h-full max-w-full" />
                         </div>
