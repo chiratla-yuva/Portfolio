@@ -65,7 +65,7 @@ export default function Navbar() {
                                 </DisclosureButton>
                             </div>
                             <div className="hidden md:ml-6 md:block">
-                                <div className="flex space-x-4 justify-end">
+                                <div className="flex space-x-4 justify-center">
                                     {navigation.map((item) => (
                                         <a
                                             key={item.name}
