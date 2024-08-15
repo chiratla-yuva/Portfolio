@@ -26,7 +26,7 @@ const Skills = () => {
                         <div className="w-12 h-12 lg:w-16 lg:h-16 flex items-center justify-center mb-4">
                             <img src={skill.src} alt={skill.name} className="max-h-full max-w-full" />
                         </div>
-                        <h4 className="text-lg font-semibold text-green-400">{skill.name}</h4>
+                        <h4 className="text-lg font-semibold text-white">{skill.name}</h4>
                     </div>
                 ))}
             </div>
