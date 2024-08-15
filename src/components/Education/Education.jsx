@@ -4,7 +4,7 @@ const Education = () => {
     return (
         <div className="w-full min-h-screen pt-28 p-6 flex flex-wrap flex-col items-center text-white bg-gray-800" id="education">
             <h1 className="text-center text-4xl font-bold text-green-500">Education</h1>
-            <hr className="w-1/3 my-4 border-green-500" />
+            <hr className="w-1/4 my-4 border-green-500" />
             <div className='rounded-3xl w-full min-h-max p-6 flex flex-col items-center gap-2.5'>
                 <div className='bg-gray-700 rounded-3xl w-full min-h-max p-6 flex flex-col items-center'>
                     <h3 className='text-xl font-semibold'>B.Tech - CSE(Cyber Security)</h3>
