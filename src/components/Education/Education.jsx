@@ -8,7 +8,7 @@ const Education = () => {
             <div className='rounded-3xl w-full min-h-max p-6 flex flex-col items-center gap-2.5'>
                 <div className='bg-gray-700 rounded-3xl w-full min-h-max p-6 flex flex-col items-center'>
                     <h3 className='text-xl font-semibold'>B.Tech - CSECS</h3>
-                    <h4 className=''>Gandhi Institute of Technology and Management, Visakhapatnam</h4>
+                    <h4 className=''>GITAM University, Visakhapatnam</h4>
                     <h5 className=''>2021 - 2025</h5>
                 </div>
                 <div className='bg-gray-700 rounded-3xl w-full min-h-max p-6 flex flex-col items-center'>
