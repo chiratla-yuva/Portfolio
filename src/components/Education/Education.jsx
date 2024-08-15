@@ -9,20 +9,20 @@ const Education = () => {
                 <div className='bg-gray-700 rounded-3xl w-full min-h-max p-4 flex flex-col items-center lg:w-3/12'>
                     <h3 className='text-xl font-semibold text-yellow-400'>B.Tech - CSE (Cyber Security)</h3>
                     <h4 className='text-lg'>GITAM University</h4>
-                    <h4 className=''>Visakhapatnam</h4>
-                    <h5 className=''>2021 - 2025</h5>
+                    <h4 className='text-md'>Visakhapatnam</h4>
+                    <h5 className='text-sm'>2021 - 2025</h5>
                 </div>
                 <div className='bg-gray-700 rounded-3xl w-full min-h-max p-4 flex flex-col items-center lg:w-3/12'>
                     <h3 className='text-xl font-semibold text-yellow-400'>Intermediate M.P.C</h3>
                     <h4 className='text-lg'>Sri Chaitanya Junior College</h4>
-                    <h4 className=''>Kakinada</h4>
-                    <h5 className=''>2019 - 2021</h5>
+                    <h4 className='text-md'>Kakinada</h4>
+                    <h5 className='text-sm'>2019 - 2021</h5>
                 </div>
                 <div className='bg-gray-700 rounded-3xl w-full min-h-max p-4 flex flex-col items-center lg:w-3/12'>
                     <h3 className='text-xl font-semibold text-yellow-400'>SSC</h3>
                     <h4 className='text-lg'>Sri Chaitanya Techno School</h4>
-                    <h4 className=''>Kakinada</h4>
-                    <h5 className=''>2018 - 2019</h5>
+                    <h4 className='text-md'>Kakinada</h4>
+                    <h5 className='text-sm'>2018 - 2019</h5>
                 </div>
             </div>
         </div>
