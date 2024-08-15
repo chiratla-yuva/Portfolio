@@ -15,12 +15,13 @@ const Education = () => {
                 <div className='bg-gray-700 rounded-3xl w-full min-h-max p-6 flex flex-col items-center'>
                     <h3 className='text-xl font-semibold'>Intermediate</h3>
                     <h3 className=''>Maths Physics Chemistry</h3>
-                    <h4 className=''>Sri Chaitanya Junior College, Kakinada</h4>
+                    <h4 className=''>Sri Chaitanya Junior College<br/>Kakinada</h4>
+                    {/* <h4 className=''>Kakinada</h4> */}
                     <h5 className=''>2019 - 2021</h5>
                 </div>
                 <div className='bg-gray-700 rounded-3xl w-full min-h-max p-6 flex flex-col items-center'>
                     <h3 className='text-xl font-semibold'>SSC</h3>
-                    <h4 className=''>Sri Chaitanya Techno School, Kakinada</h4>
+                    <h4 className=''>Sri Chaitanya Techno School<br/>Kakinada</h4>
                     <h5 className=''>2018 - 2019</h5>
                 </div>
             </div>
