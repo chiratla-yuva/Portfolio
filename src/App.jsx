@@ -7,8 +7,8 @@ import Portfolio from './pages/Portfolio/Portfolio'
 const App = () => {
   return (
     <Routes>
-      <Route path='/' Component={LandingPage}/>
-      <Route path='/portfolio' Component={Portfolio}/>
+      <Route path='/landing' Component={LandingPage}/>
+      <Route path='/' Component={Portfolio}/>
     </Routes>
   )
 }
