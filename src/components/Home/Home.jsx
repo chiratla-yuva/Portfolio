@@ -1,7 +1,14 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Logo from '../../assets/profile.jpg';
 
 const Home = () => {
+    const navigate = useNavigate();
+
+    const handleResumeClick = () => {
+        navigate('/resume'); // Navigate to Resume page on button click
+    };
+
     const [wish, setWish] = useState('');
 
     useEffect(() => {
@@ -27,10 +34,16 @@ const Home = () => {
                 <h2 className="text-3xl md:text-4xl lg:text-5xl mb-2">
                     Hi <span className="text-yellow-400">{wish}</span>
                 </h2>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl mb-4">
                     I am <span className="text-green-400 font-medium">Chiratla.</span><br />
                     Yuva Sai Manikanta
                 </h1>
+                <button 
+                    onClick={handleResumeClick} 
+                    className="bg-green-500 text-black font-semibold text-xl mt-4 py-2 px-4 rounded hover:bg-green-600 mx-auto block"
+                >
+                    Resume
+                </button>
             </div>
             <div className="flex-shrink-0">
                 <img src={Logo} alt="Profile Pic" className="w-56 md:w-56 lg:w-72 rounded-full" />
