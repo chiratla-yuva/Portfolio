@@ -38,14 +38,14 @@ const Experience = () => {
                 ))}
             </VerticalTimeline>
 
-            <div className='mt-4'>
+            <div>
                 <h1 className="text-center text-2xl font-bold text-green-500">Certificates</h1>
-                <hr className="w-1/2 mx-auto my-2 border-green-500" />
-                <div className='rounded-3xl w-full min-h-max p-2 flex flex-col items-center gap-2.5'>
-                    <div className='bg-gray-700 rounded-3xl w-full min-h-max p-6 flex flex-col items-start'>
-                        <a className='text-lg font-normal' href="http://">Meta Front-End Developer</a>
-                        <a className='text-lg font-normal' href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/gmf3ypEXBj2wvfQWC_Tata%20Group_mfkxKWeihhRGfwzKw_1713790379421_completion_certificate.pdf">Tata Group - Cybersecurity Analyst Job Simulation</a>
-                        <a className='text-lg font-normal' href="https://coursera.org/share/26046507a1a4dc7d8e82b6cf7c5c116b">Foundations of User Experience (UX) Design</a>
+                <hr className="w-1/2 mx-auto my-1 border-green-500" />
+                <div className='rounded-3xl w-full min-h-max p-1 flex flex-col items-center'>
+                    <div className='bg-gray-700 rounded-3xl w-full min-h-max p-4 flex flex-col items-start text-md'>
+                        <a className='font-normal' href="http://">Meta Front-End Developer</a>
+                        <a className='font-normal' href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/gmf3ypEXBj2wvfQWC_Tata%20Group_mfkxKWeihhRGfwzKw_1713790379421_completion_certificate.pdf">Tata Group - Cybersecurity Analyst Job Simulation</a>
+                        <a className='font-normal' href="https://coursera.org/share/26046507a1a4dc7d8e82b6cf7c5c116b">Foundations of User Experience (UX) Design</a>
                     </div>
                 </div>
             </div>
