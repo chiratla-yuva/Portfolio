@@ -1,7 +1,7 @@
 import React from 'react'
-import GmailIcon from '../../assets/gmail.png'
-import Linkedin from '../../assets/linkedin.svg'
-import Github from '../../assets/github.svg'
+import GmailIcon from '../assets/gmail.png'
+import Linkedin from '../assets/linkedin.svg'
+import Github from '../assets/github.svg'
 
 const Contact = () => {
     return (
