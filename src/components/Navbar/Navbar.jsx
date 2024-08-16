@@ -45,7 +45,7 @@ export default function Navbar() {
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                         <div className="relative flex h-16 items-center justify-between">
-                            <div className="flex items-center">
+                            <div className="flex items-center mx-4">
                                 <img
                                     className="h-8 w-auto rounded-3xl"
                                     src={Logo}
@@ -53,7 +53,7 @@ export default function Navbar() {
                                 />
                                 <h4 className='px-1.5 text-white text-xl font-normal'>Yuva Sai</h4>
                             </div>
-                            <div className="absolute inset-y-0 right-0 flex items-center md:hidden">
+                            <div className="mx-4 absolute inset-y-0 right-0 flex items-center md:hidden">
                                 {/* Mobile menu button */}
                                 <DisclosureButton className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                                     <span className="sr-only">Open main menu</span>
